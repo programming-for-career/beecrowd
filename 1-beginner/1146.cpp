@@ -24,15 +24,15 @@ public:
 };
 
 void maruf(int t){
-    vector<int> v;
-    for(int i = 0; i < 10; i++){
-        int x; cin >> x;
-        if(x <= 0) v.push_back(1);
-        else v.push_back(x);
-    }
+    int x;
+    while(cin >> x){
+        if(x == 0) break;
 
-    for(int i = 0; i < v.size(); i++){
-        cout << "X[" << i << "] = " << v[i] << endl;
+        for(int i = 1; i <= x; i++){
+            cout << i;
+            if(i < x) cout << sp;
+        }
+        cout << endl;
     }
 }
 
