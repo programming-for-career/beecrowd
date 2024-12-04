@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/maruf/Documents/Programming for Career/CP",
-      "program": "/home/maruf/Documents/Programming for Career/CP/build/Debug/outDebug",
+      "cwd": "/home/maruf/Documents/Programming for Career/beecrowd",
+      "program": "/home/maruf/Documents/Programming for Career/beecrowd/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

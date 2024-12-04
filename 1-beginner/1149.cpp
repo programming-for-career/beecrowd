@@ -24,16 +24,19 @@ public:
 };
 
 void maruf(int t){
-    vector<int> v;
-    for(int i = 0; i < 10; i++){
-        int x; cin >> x;
-        if(x <= 0) v.push_back(1);
-        else v.push_back(x);
+    int a, n;
+    cin >> a >> n;
+
+    ll sum = 0;
+
+    while(n <= 0) cin >> n;
+
+    for(int i = 1; i <= n; i++){
+        sum += a;
+        a++;
     }
 
-    for(int i = 0; i < v.size(); i++){
-        cout << "X[" << i << "] = " << v[i] << endl;
-    }
+    cout << sum << endl;
 }
 
 int main() {
